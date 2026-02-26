@@ -16,3 +16,12 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 ## Dependency Management
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+## como clonar o projeto
+
+
+1. abrir o github
+2. copiar o link do repositório
+3. abrir terminal na pasta desejada
+4. digitar 'git clone [link]'
+6. digitar 'code [nome da pasta]'

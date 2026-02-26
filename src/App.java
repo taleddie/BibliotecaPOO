@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        usuario zenilda = new usuario();
-        System.out.println("Hello, "+zenilda.nome);
+        usuario user = new usuario("sotam");
+        System.out.println("Hello, "+user.getnome());
     }
 }
