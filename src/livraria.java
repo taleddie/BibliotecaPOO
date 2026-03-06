@@ -31,11 +31,11 @@ public class livraria {
 
             switch (opcao) {
                 case "1":
-                    if (livros.isEmpty()) { // verifica se a lista está vazia
+                    if (livros.isEmpty()) { 
                         System.out.println("Nenhum livro cadastrado.");
                     } else {
-                        for (Livro l : livros) { // percorre todos os livros da lista
-                            l.mostrarLivro();     // chama o método do livro para mostrar os dados
+                        for (Livro l : livros) { 
+                            l.mostrarLivro();    
                         }
                     }
                     break;
