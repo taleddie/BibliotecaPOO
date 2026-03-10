@@ -15,13 +15,12 @@ public class Livro {
 
     public void mostrarLivro() {
         System.out.println("ID: " + this.id);
-        System.out.println("Título: " + this.titulo);
-        System.out.println("Autor: " + this.autor);
+        System.out.println(this.titulo +" - "+this.autor);
 
         if (this.disponivel){
-            System.out.println("Disponível: sim");
+            System.out.println("Disponível");
         } else {
-            System.out.println("Disponível: não");
+            System.out.println("Indisponível");
         }
 
         System.out.println("--------------------------");
