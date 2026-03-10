@@ -24,5 +24,7 @@ public class Livro {
             System.out.println("Disponível: não");
         }
 
+        System.out.println("--------------------------");
+
     }
 }

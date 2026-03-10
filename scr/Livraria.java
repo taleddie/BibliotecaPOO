@@ -35,6 +35,7 @@ public class Livraria {
                     if (livros.isEmpty()) { 
                         System.out.println("Nenhum livro cadastrado.");
                     } else {
+                        System.out.println("\n=        ACERVO          = \n");
                         for (Livro l : livros) { 
                             l.mostrarLivro();    
                         }
@@ -42,33 +43,36 @@ public class Livraria {
                     break;
 
                 case "2":
-                    System.out.println("Digite o título do livro:: ");
+                    System.out.println("\n=    CADASTRAR LIVROS    =\n");
+                    System.out.print("Digite o título do livro:: ");
                     String titulo = sc.nextLine().trim();
 
-                    System.out.println("Digite o autor do livro:: ");
+                    System.out.print("Digite o autor do livro:: ");
                     String autor = sc.nextLine().trim();
 
                     Livro novoLivro = new Livro(titulo, autor);
 
                     livros.add(novoLivro);
 
-                    System.out.println("Novo livro cadastrado!");
+                    System.out.println("\nNovo livro cadastrado!");
                     break;
 
                 case "3":
-                    System.out.println("Digite o nome do usuário:: ");
+                    System.out.println("\n=   CADASTRAR USUÁRIO    =\n");
+                    System.out.print("Digite o nome do usuário:: ");
                     String nome = sc.nextLine().trim();
 
                     Usuario novoUsuario = new Usuario(nome);
                     usuarios.add(novoUsuario);
                     
-                    System.out.println("Novo usuário cadastrado!");
+                    System.out.println("\nNovo usuário cadastrado!");
                     break;
 
                 case "4":
                     if (usuarios.isEmpty()) { 
                         System.out.println("Nenhum usuário cadastrado.");
                     } else {
+                        System.out.println("\n=        USUÁRIOS        =\n");
                         for (Usuario u : usuarios) { 
                             u.mostrarUsuario();    
                         }
@@ -83,7 +87,9 @@ public class Livraria {
 
                     boolean encontrado = false;
 
-                    System.out.println("Digite o ID do livro que deseja pegar emprestado:: ");
+                    System.out.println("\n=    EMPRESTAR LIVRO     =\n");
+
+                    System.out.print("Digite o ID do livro que deseja pegar emprestado:: ");
                     int idLivro = Integer.parseInt(sc.nextLine());
 
                     for (Livro l : livros) {
@@ -93,15 +99,15 @@ public class Livraria {
 
                         if (l.disponivel) {
                             l.disponivel = false;
-                            System.out.println("Livro emprestado com sucesso!");
+                            System.out.println("\nLivro emprestado com sucesso!");
                             } else {
-                                System.out.println("Esse livro já está emprestado.");
+                                System.out.println("\nEsse livro já está emprestado.");
                             }
                         }
                     }
 
                     if (encontrado == false) {
-                    System.out.println("Livro não encontrado.");
+                    System.out.println("\nLivro não encontrado.");
                     }
 
                 break;
@@ -114,7 +120,9 @@ public class Livraria {
 
                     boolean encontrado2 = false;
 
-                    System.out.println("Digite o ID do livro que deseja devolver:: ");
+                    System.out.println("\n=     DEVOLVER LIVRO     =\n");
+
+                    System.out.print("Digite o ID do livro que deseja devolver:: ");
                     int idLivro2 = Integer.parseInt(sc.nextLine());
 
                     for (Livro l : livros) {
@@ -124,9 +132,9 @@ public class Livraria {
 
                         if (!l.disponivel) {
                             l.disponivel = true;
-                            System.out.println("Livro devolvido com sucesso!");
+                            System.out.println("\nLivro devolvido com sucesso!");
                             } else {
-                                System.out.println("Esse livro já está disponível na biblioteca.");
+                                System.out.println("\nEsse livro já está disponível na biblioteca.");
                             }
                         }
                     }

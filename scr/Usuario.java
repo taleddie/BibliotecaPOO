@@ -12,6 +12,7 @@ public class Usuario {
     public void mostrarUsuario() {
         System.out.println("ID: " + this.id);
         System.out.println("Nome: " + this.nome);
+        System.out.println("--------------------------");
     }
     
 }
