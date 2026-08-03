@@ -1,31 +1,31 @@
-# Biblioteca POO 📚
+# Library Management System 📚
 
-O **Biblioteca POO** é um sistema de gerenciamento de biblioteca desenvolvido em **Java**, utilizando os conceitos fundamentais da **Programação Orientada a Objetos (POO)**. O projeto permite cadastrar livros e usuários, controlar empréstimos e devoluções, além de consultar o acervo e a lista de usuários por meio de um menu interativo no console.
+The **Library Management System** is a console-based application developed in **Java** using **Object-Oriented Programming (OOP)** principles. The project simulates the basic operations of a library, allowing users to register books and members, manage loans and returns, and browse the available catalog.
 
-O desenvolvimento tem como foco a modelagem de entidades, organização do código em classes e manipulação de coleções para representar o funcionamento básico de uma biblioteca.
+The application focuses on object modeling, class organization, and the use of collections to represent a real-world library management system.
 
-## Funcionalidades
+## Features
 
-- Cadastro de livros;
-- Cadastro de usuários;
-- Listagem do acervo;
-- Listagem de usuários cadastrados;
-- Empréstimo de livros;
-- Devolução de livros;
-- Controle automático da disponibilidade dos livros.
+- Register books;
+- Register library members;
+- Display the library catalog;
+- List registered members;
+- Borrow books;
+- Return borrowed books;
+- Automatically track book availability.
 
-## Conceitos aplicados
+## Concepts Applied
 
-- Programação Orientada a Objetos (POO);
-- Classes e objetos;
-- Construtores;
-- Atributos e métodos;
-- Encapsulamento (estrutura orientada a objetos);
-- Coleções (`ArrayList`);
-- Estruturas de repetição e decisão;
-- Entrada de dados com `Scanner`.
+- Object-Oriented Programming (OOP);
+- Classes and objects;
+- Constructors;
+- Attributes and methods;
+- Encapsulation;
+- Collections (`ArrayList`);
+- Control flow structures;
+- User input with `Scanner`.
 
-## Estrutura do projeto
+## Project Structure
 
 ```text
 BibliotecaPOO/
@@ -34,12 +34,12 @@ BibliotecaPOO/
 └── Livraria.java
 ```
 
-## Tecnologias utilizadas
+## Technologies Used
 
 - Java (JDK)
-- Programação Orientada a Objetos (POO)
-- Git e GitHub
+- Object-Oriented Programming (OOP)
+- Git & GitHub
 
 ---
 
-Projeto desenvolvido para a disciplina de **Desenvolvimento de Sistemas**, com o objetivo de aplicar conceitos de modelagem de classes, gerenciamento de coleções e desenvolvimento de aplicações em Java através da simulação de um sistema de biblioteca.
+Project developed for the **Systems Development** course, focusing on class modeling, collection management, and the development of Java applications using OOP principles.
