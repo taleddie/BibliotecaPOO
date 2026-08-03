@@ -1,4 +1,4 @@
-# Library Management System 📚
+# OOP Library 📚
 
 The **Library Management System** is a console-based application developed in **Java** using **Object-Oriented Programming (OOP)** principles. The project simulates the basic operations of a library, allowing users to register books and members, manage loans and returns, and browse the available catalog.
 
