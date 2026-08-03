@@ -42,4 +42,4 @@ BibliotecaPOO/
 
 ---
 
-Projeto desenvolvido para a disciplina de **Programação Orientada a Objetos**, com o objetivo de aplicar conceitos de modelagem de classes, gerenciamento de coleções e desenvolvimento de aplicações em Java através da simulação de um sistema de biblioteca.
+Projeto desenvolvido para a disciplina de **Desenvolvimento de Sistemas**, com o objetivo de aplicar conceitos de modelagem de classes, gerenciamento de coleções e desenvolvimento de aplicações em Java através da simulação de um sistema de biblioteca.
