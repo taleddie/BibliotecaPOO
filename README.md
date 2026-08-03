@@ -1,26 +1,26 @@
-# JavaLog Express 🚚
+# Biblioteca POO 📚
 
-O **JavaLog Express** é um sistema de gerenciamento de frota e simulação de fretes desenvolvido em **Java**, utilizando os princípios da **Programação Orientada a Objetos (POO)**. O projeto simula o sistema de uma empresa de logística, permitindo o cadastro de veículos, gerenciamento da frota e cálculo de fretes conforme as características de cada tipo de veículo.
+O **Biblioteca POO** é um sistema de gerenciamento de biblioteca desenvolvido em **Java**, utilizando os conceitos fundamentais da **Programação Orientada a Objetos (POO)**. O projeto permite cadastrar livros e usuários, controlar empréstimos e devoluções, além de consultar o acervo e a lista de usuários por meio de um menu interativo no console.
 
-O desenvolvimento foi focado na aplicação de conceitos fundamentais de orientação a objetos, como **abstração, encapsulamento, herança e polimorfismo**, além da utilização de coleções dinâmicas para o gerenciamento dos dados e interação via console.
+O desenvolvimento tem como foco a modelagem de entidades, organização do código em classes e manipulação de coleções para representar o funcionamento básico de uma biblioteca.
 
 ## Funcionalidades
 
-- Cadastro de vans e caminhões;
-- Armazenamento dinâmico da frota utilizando `ArrayList`;
-- Simulação automática do custo de frete para cada veículo;
-- Relatório completo da frota cadastrada;
-- Menu interativo em modo texto (console);
-- Validação de dados para garantir a integridade das informações.
+- Cadastro de livros;
+- Cadastro de usuários;
+- Listagem do acervo;
+- Listagem de usuários cadastrados;
+- Empréstimo de livros;
+- Devolução de livros;
+- Controle automático da disponibilidade dos livros.
 
 ## Conceitos aplicados
 
 - Programação Orientada a Objetos (POO);
-- Classes abstratas;
-- Herança;
-- Encapsulamento;
-- Polimorfismo (`@Override`);
+- Classes e objetos;
 - Construtores;
+- Atributos e métodos;
+- Encapsulamento (estrutura orientada a objetos);
 - Coleções (`ArrayList`);
 - Estruturas de repetição e decisão;
 - Entrada de dados com `Scanner`.
@@ -28,11 +28,10 @@ O desenvolvimento foi focado na aplicação de conceitos fundamentais de orienta
 ## Estrutura do projeto
 
 ```text
-JavaLogExpress/
-├── Veiculo.java
-├── Van.java
-├── Caminhao.java
-└── JavaLogExpressApp.java
+BibliotecaPOO/
+├── Livro.java
+├── Usuario.java
+└── Livraria.java
 ```
 
 ## Tecnologias utilizadas
@@ -43,4 +42,4 @@ JavaLogExpress/
 
 ---
 
-Projeto desenvolvido para a disciplina de **Programação Orientada a Objetos**, com o objetivo de aplicar boas práticas de arquitetura de software, modelagem de classes e desenvolvimento de aplicações orientadas a objetos em Java.
+Projeto desenvolvido para a disciplina de **Programação Orientada a Objetos**, com o objetivo de aplicar conceitos de modelagem de classes, gerenciamento de coleções e desenvolvimento de aplicações em Java através da simulação de um sistema de biblioteca.
